@@ -67,7 +67,8 @@ main{padding-top:120px}
 .star-sep{padding:80px 0}
 
 /* ---------- Accueil ---------- */
-.home-hero{text-align:center;padding-top:20px}
+.home-hero{text-align:center}
+.home main{padding-top:40px}
 .home-hero a.hero-media{display:inline-block}
 .home-hero video,.home-hero .hero-media img{width:600px;height:auto;aspect-ratio:6/5;margin:0 auto}
 .home-title{max-width:560px;margin:40px auto 0;font-size:24px;line-height:45px;letter-spacing:.08em;font-weight:400;text-transform:uppercase;color:var(--ink)}
@@ -105,7 +106,8 @@ a:hover .play,button:hover .play{transform:scale(1.1);background:var(--red)}
 .gallery a{position:relative;display:block;overflow:hidden;aspect-ratio:692/502;background:#f2f2f2}
 .gallery img{width:100%;height:100%;object-fit:cover;transition:transform .6s ease}
 .gallery figcaption{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;background:rgba(17,17,17,.75);color:#fff;font-size:14px;line-height:20px;font-weight:500;text-align:center;opacity:0;transition:opacity .35s}
-.gallery figcaption .s{color:var(--red);font-size:12px}
+.gallery figcaption span{display:block}
+.gallery figcaption .s{color:#fff;font-size:12px;line-height:18px}
 .gallery a:hover figcaption,.gallery a:focus-visible figcaption{opacity:1}
 .gallery a:hover img{transform:scale(1.04)}
 
@@ -175,7 +177,7 @@ a:hover .play,button:hover .play{transform:scale(1.1);background:var(--red)}
   .more-links{flex-direction:column}
   .more-links a,.more-links .star{flex:none;padding:20px 0}
   .gallery{grid-template-columns:1fr}
-  .gallery figcaption br{display:none}
+  .gallery figcaption span{display:inline}
   .gallery figcaption{opacity:1;inset:auto 0 0 0;background:linear-gradient(transparent,rgba(0,0,0,.6));padding:30px 10px 10px;flex-direction:row;gap:8px}
   .video-grid{grid-template-columns:1fr;gap:50px}
   .vimeo-more{justify-content:center;font-size:18px}

@@ -117,7 +117,7 @@
     var links = Array.prototype.slice.call(document.querySelectorAll(".gallery a"));
     var photos = links.map(function (a) {
       var fc = a.querySelector("figcaption");
-      return { src: a.getAttribute("href"), alt: a.querySelector("img").alt, cap: fc ? fc.innerHTML.replace(/<br>/g, " ") : "" };
+      return { src: a.getAttribute("href"), alt: a.querySelector("img").alt, cap: fc ? fc.innerHTML : "" };
     });
     links.forEach(function (a, i) {
       a.addEventListener("click", function (e) { e.preventDefault(); open(photos, i, a); });
