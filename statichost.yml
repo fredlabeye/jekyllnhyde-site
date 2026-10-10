@@ -1,0 +1,2 @@
+# Site HTML pur : pas d'étape de build, la racine du dépôt est publiée telle quelle.
+public: .
