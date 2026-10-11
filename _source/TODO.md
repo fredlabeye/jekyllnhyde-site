@@ -9,7 +9,7 @@
 ## À faire
 1. **Terminer la migration**
    - ✅ 11/10/2026 : DNS basculé par Bruno (A 95.217.26.94, AAAA 2a01:4f9:c01f:8002::, www CNAME jekyllnhyde.statichost.page.) — vérifié : HTTPS OK, www et http redirigent vers https://jekyllnhyde.com/, MX et SPF intacts, pages indexables
-   - ✅ 11/10/2026 : Search Console validé (via le TXT google-site-verification — ne jamais le supprimer). Reste : envoyer sitemap.xml + demander l'indexation de /, /pictures/, /videos/
+   - ✅ 11/10/2026 : Search Console validé (via le TXT google-site-verification — ne jamais le supprimer). sitemap.xml envoyé, indexation demandée pour /, /pictures/, /videos/ (propriété Search Console : https://jekyllnhyde.com/)
    - Quand l'outil casting sera supprimé : faire retirer par Bruno le CNAME casting + TXT casting= (et backstage + TXT backstage= s'il ne sert plus). Garder google-site-verification et SPF
    - Mettre à jour les profils tiers datés (Behance, LinkedIn : « Tim & Fred… 12 years »)
    - Garder Bluehost 1–2 semaines, puis :
