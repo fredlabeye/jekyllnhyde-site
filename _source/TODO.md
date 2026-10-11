@@ -8,9 +8,7 @@
 
 ## À faire
 1. **Terminer la migration**
-   - Bruno modifie le DNS chez Infomaniak (A 95.217.26.94, AAAA 2a01:4f9:c01f:8002::, www CNAME jekyllnhyde.statichost.page.) — demander si ALIAS est possible pour le domaine nu
-   - Domaines déjà ajoutés dans statichost
-   - Vérifier : HTTPS sur les deux adresses, MX/SPF intacts, pages indexables
+   - ✅ 11/10/2026 : DNS basculé par Bruno (A 95.217.26.94, AAAA 2a01:4f9:c01f:8002::, www CNAME jekyllnhyde.statichost.page.) — vérifié : HTTPS OK, www et http redirigent vers https://jekyllnhyde.com/, MX et SPF intacts, pages indexables
    - Installer Google Search Console + déclarer le sitemap
    - Garder Bluehost 1–2 semaines, puis :
      - **supprimer l'ancien site** chez Bluehost (fichiers WordPress + base de données) — il reste sinon accessible via l'adresse technique box2507.temp.domains
