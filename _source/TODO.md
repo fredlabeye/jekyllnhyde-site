@@ -12,10 +12,10 @@
    - ✅ 11/10/2026 : Search Console validé (via le TXT google-site-verification — ne jamais le supprimer). sitemap.xml envoyé, indexation demandée pour /, /pictures/, /videos/ (propriété Search Console : https://jekyllnhyde.com/)
    - Quand l'outil casting sera supprimé : faire retirer par Bruno le CNAME casting + TXT casting= (et backstage + TXT backstage= s'il ne sert plus). Garder google-site-verification et SPF
    - Mettre à jour les profils tiers datés (Behance, LinkedIn : « Tim & Fred… 12 years »)
-   - Garder Bluehost 1–2 semaines, puis :
-     - **supprimer l'ancien site** chez Bluehost (fichiers WordPress + base de données) — il reste sinon accessible via l'adresse technique box2507.temp.domains
-     - **stopper l'abonnement Bluehost** — vérifier la date de renouvellement automatique et qu'aucun autre service (autre site, mail) ne tourne sur le compte
-   - Ensuite : fredlabeye.com
+   - ✅ 12/10/2026 : sauvegarde WordPress téléchargée (home directory + base MySQL) et rangée par Fred ; résiliation Bluehost lancée par Fred (fredlabeye.com n'y est pas hébergé)
+   - ✅ Migration jekyllnhyde.com terminée
+   - Suivi : vérifier dans Search Console que le sitemap est lu et que les pages s'indexent
+   - En cours : fredlabeye.com
 2. **Page Studio** — photos du studio (pleine résolution), surface, hauteur, fond/cyclo, équipement, formules et tarifs (ou « on request »), location à des tiers ou non. Photos réutilisées pour la fiche Google.
 3. **Mise à jour photos et vidéos** (premier chantier test du nouveau fonctionnement) — nouvelles images en pleine résolution + agence/projet ; nouvelles vidéos = lien Vimeo + agence/projet. Les photos se gèrent dans `_source/portfolio.json`.
 4. **Tour des concurrents** — studios photo / production vidéo à Bruxelles : ce qu'ils montrent et que le site n'a pas. Piste déjà identifiée : version française (et néerlandaise ?) du site.
