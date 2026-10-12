@@ -1,4 +1,4 @@
-# Chantier jekyllnhyde.com — état au 10 octobre 2026
+# Chantier jekyllnhyde.com — état au 12 octobre 2026
 
 ## Fait
 - Site WordPress reconstruit en statique (5 pages + Legal notice + 404), hébergé sur statichost.eu
